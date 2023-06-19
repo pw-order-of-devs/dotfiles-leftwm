@@ -1,6 +1,6 @@
 chsh -s $(which fish)
 
-paru -S fisher-git brave-bin leftwm
+paru -S fisher-git brave-bin leftwm ttf-font-logos
 fisher install reitzig/sdkman-for-fish@v1.4.0
 
 curl -sS https://starship.rs/install.sh | sh
