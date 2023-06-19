@@ -101,3 +101,11 @@ disabled = true
 
 [terraform]
 disabled = true
+
+# ---
+
+# IntelliJ
+[custom.intellij]
+symbol = "$ "
+command = "echo 'Intellij IDEA'"
+when = "shell = 'zsh'"
