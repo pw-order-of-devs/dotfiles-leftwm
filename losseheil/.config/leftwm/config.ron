@@ -55,7 +55,7 @@
     sloppy_mouse_follows_focus: true,
     auto_derive_workspaces: true,
     keybind: [
-        (command: Execute, value: "rofi -show drun -theme ~/.config/polybar/launcher/style.rasi", modifier: ["modkey"], key: "p"),
+        (command: Execute, value: "~/.config/polybar/launcher/launcher.sh", modifier: ["modkey"], key: "p"),
         (command: Execute, value: "alacritty", modifier: ["modkey", "Shift"], key: "Return"),
         (command: CloseWindow, value: "", modifier: ["modkey", "Shift"], key: "q"),
         (command: SoftReload, value: "", modifier: ["modkey", "Shift"], key: "r"),
