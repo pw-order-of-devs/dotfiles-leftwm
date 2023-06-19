@@ -41,14 +41,14 @@ disabled = false
 [directory]
 truncation_length = 1
 truncation_symbol = "…/"
-home_symbol = " ~"
+home_symbol = "🏠 ~"
 read_only_style = "197"
-read_only = "  "
+read_only = "🔒 "
 format = "at [$path]($style)[$read_only]($read_only_style) "
 
 # Shows current git branch
 [git_branch]
-symbol = " "
+symbol = "🌱 "
 format = "via [$symbol$branch]($style) "
 # truncation_length = 4
 truncation_symbol = "…/"
@@ -58,21 +58,21 @@ style = "bold green"
 [git_status]
 format = '[\($all_status$ahead_behind\)]($style) '
 style = "bold green"
-conflicted = "🏳"
-up_to_date = " "
-untracked = " "
+up_to_date = "✓ "
+conflicted = "⚔️ "
+untracked = "🤷 "
 ahead = "⇡${count}"
 diverged = "⇕⇡${ahead_count}⇣${behind_count}"
 behind = "⇣${count}"
-stashed = " "
-modified = " "
+stashed = "📦 "
+modified = "📝 "
 staged = '[++\($count\)](green)'
-renamed = "襁 "
-deleted = " "
+renamed = "✏️ "
+deleted = "🗑 "
 
 # Shows kubernetes context and namespace
 [kubernetes]
-format = 'via [ﴱ  $context\($namespace\)](bold purple) '
+format = 'on [⛵ ($user on )($cluster in )$context \($namespace\)](dimmed green) '
 disabled = false
 
 # ---
