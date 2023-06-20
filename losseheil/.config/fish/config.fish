@@ -1,4 +1,5 @@
 set TERM "tmux-256color"
+setxkbmap pl
 
 alias pau='paru -Syu'
 alias pauu='paru -Syyuu'
