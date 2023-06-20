@@ -1,5 +1,4 @@
 # set locale
-timedatectl set-timezone Europe/Warsaw
 
 cat > /etc/localtime << EOF
 hwclock --systohc --utc
@@ -10,8 +9,6 @@ en_US.UTF-8 UTF-8
 pl_PL.UTF-8 UTF-8
 EOF
 
-locale-gen
-
 cat > /etc/locale.conf << EOF
 LANG=en_US.UTF-8
 EOF
@@ -21,6 +18,9 @@ KEYMAP=pl
 FONT=Lat2-Terminus16.psfu.gz
 FONT_MAP=8859-2
 EOF
+
+locale-gen
+timedatectl set-timezone Europe/Warsaw
 
 # install base packages
 pacman -S openssh git vim neovim wget curl ly feh picom polybar conky bluez bluez-utils connman dunst libnotify zip unzip alacritty rofi fish rustup jetbrains-toolbox pavucontrol inetutils polkit arc-gtk-theme
