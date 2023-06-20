@@ -1,4 +1,6 @@
 # set locale
+timedatectl set-timezone Europe/Warsaw
+
 cat > /etc/localtime << EOF
 hwclock --systohc --utc
 EOF
