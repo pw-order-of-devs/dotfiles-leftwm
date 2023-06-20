@@ -1,5 +1,4 @@
 # set locale
-
 cat > /etc/localtime << EOF
 hwclock --systohc --utc
 EOF
