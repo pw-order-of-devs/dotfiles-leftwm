@@ -22,8 +22,8 @@ locale-gen
 timedatectl set-timezone Europe/Warsaw
 
 # install essential packages
-pacman -S openssh git vim neovim alacritty wget curl ly feh picom polybar conky bluez bluez-utils connman dunst libnotify zip unzip fish pavucontrol inetutils polkit rofi rustup
-pacman -S jetbrains-toolbox arc-gtk-theme
+pacman -S openssh git vim neovim alacritty wget curl ly feh picom polybar conky bluez bluez-utils connman dunst libnotify zip unzip fish pavucontrol inetutils polkit network-manager-applet
+pacman -S jetbrains-toolbox arc-gtk-theme rofi rustup
 # install fonts
 pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra nerd-fonts-git ttf-jetbrains-mono
 # initialize rustup config
@@ -49,3 +49,6 @@ curl -s "https://get.sdkman.io" | sh
 
 # generate ssh key
 ssh-keygen -t ed25519 -C "pawel.walus@protonmail.com"
+
+systemctl enable --now ly
+systemctl enable --now NetworkManager
