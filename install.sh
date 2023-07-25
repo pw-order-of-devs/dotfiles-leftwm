@@ -32,7 +32,7 @@ curl -sS https://starship.rs/install.sh | sh
 # sdkman
 curl -s "https://get.sdkman.io" | sh
 
-cat > /usr/share/icons/default/index.theme << EOF                                                                                                                                                                     ✔  at 01:35:05 PM 
+cat > /usr/share/icons/default/index.theme << EOF 
 [Icon Theme]
 Inherits=Papirus-Dark,ArchCursorComplete
 EOF
