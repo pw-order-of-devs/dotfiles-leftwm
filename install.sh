@@ -1,4 +1,5 @@
 # install essential packages
+sudo pacman -Syyuu
 sudo pacman -S openssh git vim neovim alacritty wget curl ly feh picom polybar conky bluez bluez-utils connman dunst libnotify zip unzip fish pavucontrol inetutils polkit network-manager-applet
 sudo pacman -S jetbrains-toolbox arc-gtk-theme rofi rustup
 # install fonts
@@ -9,7 +10,7 @@ sudo pacman -S papirus-icon-theme
 rustup default stable
 
 # install paru
-cd tmp
+cd /tmp
 git clone https://aur.archlinux.org/paru
 cd paru
 makepkg -si
