@@ -37,11 +37,10 @@ git clone https://aur.archlinux.org/paru
 cd paru
 makepkg -si
 
-# fish configuration
-chsh -s $(which fish)
 
 paru -S fisher-git brave-bin leftwm betterlockscreen
 fisher install reitzig/sdkman-for-fish@v1.4.0
+
 # install cursor
 paru -S xcursor-arch-cursor-complete
 
@@ -50,6 +49,14 @@ curl -sS https://starship.rs/install.sh | sh
 
 # sdkman
 curl -s "https://get.sdkman.io" | sh
+
+cat > /usr/share/icons/default/index.theme << EOF                                                                                                                                                                     ✔  at 01:35:05 PM 
+[Icon Theme]
+Inherits=Papirus-Dark,ArchCursorComplete
+EOF
+
+# fish configuration
+chsh -s $(which fish)
 
 # generate ssh key
 ssh-keygen -t ed25519 -C "pawel.walus@protonmail.com"
