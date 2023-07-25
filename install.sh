@@ -26,6 +26,8 @@ pacman -S openssh git vim neovim alacritty wget curl ly feh picom polybar conky 
 pacman -S jetbrains-toolbox arc-gtk-theme rofi rustup
 # install fonts
 pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra nerd-fonts-git ttf-jetbrains-mono
+# install icon theme
+pacman -S papirus-icon-theme
 # initialize rustup config
 rustup default stable
 
@@ -40,6 +42,8 @@ chsh -s $(which fish)
 
 paru -S fisher-git brave-bin leftwm betterlockscreen
 fisher install reitzig/sdkman-for-fish@v1.4.0
+# install cursor
+paru -S xcursor-arch-cursor-complete
 
 # starship
 curl -sS https://starship.rs/install.sh | sh
