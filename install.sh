@@ -1,11 +1,6 @@
 # install essential packages
 sudo pacman -Syyuu
-sudo pacman -S openssh git vim neovim alacritty wget curl ly feh picom polybar conky bluez bluez-utils connman dunst libnotify zip unzip fish pavucontrol inetutils polkit network-manager-applet
-sudo pacman -S jetbrains-toolbox arc-gtk-theme rofi rustup
-# install fonts
-sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra nerd-fonts-git ttf-jetbrains-mono
-# install icon theme
-sudo pacman -S papirus-icon-theme
+sudo pacman -S openssh git vim neovim alacritty wget curl ly feh picom polybar conky bluez bluez-utils connman dunst libnotify zip unzip fish pavucontrol inetutils polkit network-manager-applet arc-gtk-theme rofi rustup
 # initialize rustup config
 rustup default stable
 
@@ -15,6 +10,12 @@ git clone https://aur.archlinux.org/paru
 cd paru
 makepkg -si
 
+# install fonts
+paru -S jetbrains-toolbox
+# install fonts
+paru -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra nerd-fonts-git ttf-jetbrains-mono
+# install icon theme
+paru -S papirus-icon-theme
 
 paru -S fisher-git brave-bin leftwm betterlockscreen
 fisher install reitzig/sdkman-for-fish@v1.4.0
