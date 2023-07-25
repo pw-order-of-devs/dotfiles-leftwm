@@ -1,10 +1,10 @@
 # install essential packages
-pacman -S openssh git vim neovim alacritty wget curl ly feh picom polybar conky bluez bluez-utils connman dunst libnotify zip unzip fish pavucontrol inetutils polkit network-manager-applet
-pacman -S jetbrains-toolbox arc-gtk-theme rofi rustup
+sudo pacman -S openssh git vim neovim alacritty wget curl ly feh picom polybar conky bluez bluez-utils connman dunst libnotify zip unzip fish pavucontrol inetutils polkit network-manager-applet
+sudo pacman -S jetbrains-toolbox arc-gtk-theme rofi rustup
 # install fonts
-pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra nerd-fonts-git ttf-jetbrains-mono
+sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra nerd-fonts-git ttf-jetbrains-mono
 # install icon theme
-pacman -S papirus-icon-theme
+sudo pacman -S papirus-icon-theme
 # initialize rustup config
 rustup default stable
 
