@@ -1,0 +1,22 @@
+{
+  "prefs": {
+    "AIRequestLimitInfo": "{\"limit\":40,\"num_requests_used_since_refresh\":25,\"next_refresh_time\":\"2024-07-25T09:50:22.677264Z\"}",
+    "AIAssistantRequestLimitInfo": "{\"limit\":40,\"num_requests_used_since_refresh\":0,\"next_refresh_time\":\"2024-07-25T09:50:22.677264998Z\"}",
+    "EmacsBindingsBannerState": "\"Dismissed\"",
+    "Notifications": "{\"mode\":\"Disabled\",\"is_long_running_enabled\":true,\"long_running_threshold\":{\"secs\":30,\"nanos\":0},\"is_password_prompt_enabled\":true}",
+    "InputAutodetectionBannerDismissed": "true",
+    "CrashReportingEnabled": "true",
+    "FontSize": "13.0",
+    "WelcomeTipsFeaturesUsed": "[{\"Action\":\"SplitPane\"},{\"Action\":\"ThemePicker\"},{\"Hint\":\"BlockSelect\"},{\"Hint\":\"CreateBlock\"},{\"Hint\":\"BlockAction\"}]",
+    "TelemetryEnabled": "true",
+    "NotebookFontSize": "14.0",
+    "Theme": "\"Dark\"",
+    "AgentModeOnboardingBlockShown": "true",
+    "ReceivedReferralTheme": "\"Inactive\"",
+    "ExperimentId": "c7405def-f09a-451a-b352-789a51ca7bcc",
+    "SameLinePromptBlockState": "\"DoNotShow\"",
+    "HasAutoOpenedWelcomeFolder": "true",
+    "ChangelogVersions": "{\"v0.2024.06.18.08.02.stable_04\":true,\"v0.2024.06.25.08.02.stable_01\":true,\"v0.2024.07.09.08.01.stable_00\":true}",
+    "AutosuggestionAcceptedCount": "2"
+  }
+}
