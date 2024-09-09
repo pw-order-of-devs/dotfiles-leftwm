@@ -1,7 +1,7 @@
 # ~/.config/starship.toml
 
 add_newline = true  # Inserts a blank line between shell prompts
-command_timeout = 3000  # Change command timeout from 500 to 1000 ms
+command_timeout = 10000  # Change command timeout from 500 to 1000 ms
 format = """$env_var $all"""  # Add custom formatting before other stuff
 
 # Drop ugly default prompt characters
