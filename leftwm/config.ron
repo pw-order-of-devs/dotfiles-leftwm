@@ -74,6 +74,7 @@
     keybind: [
         (command: Execute, value: "rofi -show drun", modifier: ["modkey"], key: "r"),
         (command: Execute, value: "warp-terminal", modifier: ["modkey"], key: "q"),
+        (command: Execute, value: "alacritty", modifier: ["modkey", "Shift"], key: "q"),
 	(command: Execute, value: "nemo", modifier: ["modkey"], key: "e"),
 	(command: CloseWindow, value: "", modifier: ["modkey"], key: "c"),
         (command: SoftReload, value: "", modifier: ["modkey", "Shift"], key: "r"),
